@@ -1,0 +1,43 @@
+@mixin button{
+  width: 225px;
+  height: 60px;
+  font-size: 16px;
+  background-color: $color__main_blue;
+  background-image: url(../assets/image/Rectangle.png);
+  background-repeat: no-repeat;
+  color: $color__main_white;
+  font-family: $font_aleo;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.3px;
+ 
+}
+
+@mixin text($text-size, $text-color) {
+  font-family: $font__raleway;
+  font-size: $text-size;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.59;
+  letter-spacing: normal;
+  color: $text-color;
+  text-align: left;
+}
+
+@mixin title($title-size, $title-color) {
+  font-family: $font__raleway;
+  font-size: $title-size;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.28;
+  letter-spacing: normal;
+  color: $title-color;
+  text-align: left;
+}

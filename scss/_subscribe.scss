@@ -1,0 +1,56 @@
+//5 BLOCK//
+
+.subscribe {
+  background-image: url(../assets/subscribe.jpg);
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+
+  &__text {
+    @include caption(30px, $color__main_dark-grey);
+    padding-top: 140px;
+    padding-left: 11%;
+  }
+
+  &__title {
+    @include title(0.8em, $color__main_dark-grey);
+    padding-top: 7%;
+    margin-left: 11%;
+  }
+}
+.main__form {
+  padding-top: 35px;
+  padding-left: 11%;
+
+  .field__item {
+    width: 80%;
+    line-height: 55px;
+    padding-left: 11px;
+    border: 1px solid $color__main_dark-grey;
+    padding-left: 20px;
+
+    &::-webkit-input-placeholder {
+      font: 14px;
+    }
+  }
+}
+.button {
+  @include button($color__btn-green, $color__main_white);
+  margin-top: 5%;
+  margin-left: 2%;
+
+  @include laptop {
+    margin-top: 6%;
+    margin-left: 2%;
+  }
+  @include desktop {
+    margin-top: 35px;
+    margin-left: 2%;
+  }
+  &:hover {
+    transform: scale(0.95);
+    background-color: $color__main_white;
+    color: $color__btn-green;
+    border: 1px solid $color__btn-green;
+  }
+}

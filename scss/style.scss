@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+  height: 100%;
+
+}
+
+@import "./header";
+@import "./why-choose-us";
+@import "./how-it-works";
+@import "./section";
+@import "./testimonial";
+@import "./footer";

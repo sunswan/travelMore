@@ -1,0 +1,143 @@
+.who-choose-us {
+  background-image: url(../assets/image/why-bg.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 685px;
+
+  @include laptop {
+    height: 100vh;
+  }
+  @include tablet {
+    height: 100vh;
+  }
+  @include mobile {
+    height: 100vh;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__item {
+    width: 56%;
+
+    @include laptop {
+      margin: 150px 0px 0px 35px;
+      width: 45%;
+    }
+    @include tablet {
+      margin: 150px 0px 0px 25px;
+      width: 45%;
+    }
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-family: $font_aleo;
+    font-size: 2.25em;
+    line-height: 0.72;
+    letter-spacing: normal;
+    text-align: left;
+    color: $color__main_white;
+    padding: 207px 0px 65px 0px;
+
+    @include tablet {
+      font-size: 1.5em;
+      padding: 50px 10px 50px 0px;
+    }
+
+    @include mobile {
+      font-size: 2em;
+      padding: 20% 5% 5% 5%;
+    }
+  }
+
+  &__text {
+    font-family: $font_josefinSans;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.65px;
+    text-align: left;
+    color: $color__main_milk;
+    margin: 0px 62px 0px 0px;
+
+    @include tablet {
+      margin: 0px 0px 0px 0px;
+    }
+
+    @include mobile {
+      font-size: 1em;
+      margin: 10% 5% 0% 5%;
+      text-align: justify;
+    }
+  }
+
+  &__btn {
+    @include button;
+    margin-top: 40px;
+
+    @include tablet {
+      margin: 30px 0px 0px 0px;
+    }
+    @include mobile {
+      margin: 10% 0% 5% 20%;
+    }
+
+    &:hover{
+      transform: scale(0.95);
+      background-color: $color__main_white;
+      color: $color__main_blue;
+      background-image: none;
+    }
+  }
+
+
+
+  &__image {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include laptop {
+      width: 50%;
+      margin: 100px 0px 0px 0px;
+      justify-content: normal;
+    }
+    @include tablet {
+      width: 50%;
+      margin: 120px 0px 0px 0px;
+      justify-content: normal;
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__picture1 {
+    margin: 0px 0px -230px 4px;
+
+    @include laptop {
+      margin: 0px 0px 65px 0px;
+    }
+    @include tablet {
+      margin: 0px 0px 10px 0px;
+    }
+  }
+
+  &__picture2 {
+    align-self: flex-end;
+
+    @include tablet {
+      align-self: auto;
+    }
+  }
+}
+.picture {
+  width: 350px;
+  height: 220px;
+}
