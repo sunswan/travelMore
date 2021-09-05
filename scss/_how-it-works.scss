@@ -2,12 +2,12 @@
   background-color: $color__main_dark-grey;
   height: 337px;
 
-  @include tablet {
-    height: 100vh;
-  }
-  @include mobile {
-    height: 100vh;
-  }
+  // @include tablet {
+  //   height: 100vh;
+  // }
+  // @include mobile {
+  //   height: 100vh;
+  // }
 
   &__row {
     position: relative;
@@ -20,16 +20,16 @@
     align-items: center;
     padding: 0px 44px 12px 68px;
 
-    @include tablet {
-      font-size: 2em;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-    @include mobile {
-      font-size: 2.25em;
-      flex-direction: column;
-      justify-content: space-around;
-    }
+    // @include tablet {
+    //   font-size: 2em;
+    //   flex-direction: column;
+    //   justify-content: space-around;
+    // }
+    // @include mobile {
+    //   font-size: 2.25em;
+    //   flex-direction: column;
+    //   justify-content: space-around;
+    // }
   }
 
   &__pic li:hover {
@@ -50,16 +50,16 @@
   color: $color__main_milk;
   margin: 39px 21px 0px 0px;
 
-  @include laptop {
-    font-size: 2em;
-  }
-  @include tablet {
-    font-size: 1.5em;
-  }
-  @include mobile {
-    font-size: 1em;
-    margin: 16px -9px 0px 0px;
-  }
+  // @include laptop {
+  //   font-size: 2em;
+  // }
+  // @include tablet {
+  //   font-size: 1.5em;
+  // }
+  // @include mobile {
+  //   font-size: 1em;
+  //   margin: 16px -9px 0px 0px;
+  // }
 }
 
 .bg-search_big {
@@ -90,13 +90,13 @@
   top: 47px;
   left: 168px;
 
-  @include laptop {
-    display: none;
-  }
-  @include tablet {
-    display: none;
-  }
-  @include mobile {
-    display: none;
-  }
+  // @include laptop {
+  //   display: none;
+  // }
+  // @include tablet {
+  //   display: none;
+  // }
+  // @include mobile {
+  //   display: none;
+  // }
 }

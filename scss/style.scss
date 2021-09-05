@@ -1,3 +1,10 @@
+@import "./header";
+@import "./why-choose-us";
+@import "./how-it-works";
+@import "./section";
+@import "./testimonial";
+@import "./footer";
+
 body {
   box-sizing: border-box;
 }
@@ -9,14 +16,9 @@ body {
 
 .container {
   max-width: 1110px;
-  margin: 0px auto;
+  // margin: 0px auto;
   height: 100%;
 
 }
 
-@import "./header";
-@import "./why-choose-us";
-@import "./how-it-works";
-@import "./section";
-@import "./testimonial";
-@import "./footer";
+

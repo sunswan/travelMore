@@ -39,14 +39,14 @@
   margin-top: 5%;
   margin-left: 2%;
 
-  @include laptop {
-    margin-top: 6%;
-    margin-left: 2%;
-  }
-  @include desktop {
-    margin-top: 35px;
-    margin-left: 2%;
-  }
+  // @include laptop {
+  //   margin-top: 6%;
+  //   margin-left: 2%;
+  // }
+  // @include desktop {
+  //   margin-top: 35px;
+  //   margin-left: 2%;
+  // }
   &:hover {
     transform: scale(0.95);
     background-color: $color__main_white;

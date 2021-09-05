@@ -12,10 +12,10 @@
     justify-content: center;
   }
 
-&__logo{
-  margin: 70px 0px 6px 0px;
-  letter-spacing: 2.22px;
-}
+  &__logo {
+    margin: 70px 0px 6px 0px;
+    letter-spacing: 2.22px;
+  }
 
   &__text {
     font-family: $font_josefinSans;
@@ -25,7 +25,6 @@
     text-align: center;
     color: $color__main_white;
     margin: 0px 0px 25px 0px;
-
   }
 
   &__icon {
@@ -35,10 +34,9 @@
     width: 167px;
   }
 
-  &__icon i:hover{
+  &__icon i:hover {
     color: $color__main_blue;
     transform: scale(1.2);
-    text-shadow: $shadow_blue;
     -webkit-transition-duration: 0.4s;
     -o-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -49,7 +47,4 @@
     color: $color__main_white;
     cursor: pointer;
   }
-
-
 }
-
