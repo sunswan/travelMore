@@ -138,6 +138,7 @@ table {
   background-size: cover;
   display: flex;
   height: 100vh;
+  width: 100%;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -294,6 +295,11 @@ table {
 @media (min-width: 1200px) {
   .scroll {
     margin: 20% 0 3% 0;
+  }
+}
+@media (max-height: 820px) {
+  .scroll {
+    margin: 10% 0 3% 0;
   }
 }
 .scroll p {

@@ -4,6 +4,7 @@
   background-size: cover;
   display: flex;
   height: 100vh;
+  width: 100%;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -189,6 +190,9 @@
 
   @media (min-width: $md1+px) {
     margin: 20% 0 3% 0;
+  }
+  @media (max-height: 820px) {
+    margin: 10% 0 3% 0;
   }
 
   p {
