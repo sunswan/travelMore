@@ -516,30 +516,40 @@ input:focus:-ms-input-placeholder {
 
 .how-it-works {
   background-color: #333333;
-  height: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px;
+  width: 100%;
+}
+@media (min-width: 767.98px) {
+  .how-it-works {
+    height: 25%;
+  }
 }
 .how-it-works__pic {
   display: flex;
   flex-direction: column;
-  height: 300px;
   width: 100%;
+  height: 100%;
 }
 @media (min-width: 767.98px) {
   .how-it-works__pic {
     flex-direction: row;
-    height: 100%;
   }
 }
 .how-it-works__pic li {
-  width: 33%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+@media (min-width: 767.98px) {
+  .how-it-works__pic li {
+    width: 33%;
+  }
 }
 .how-it-works__pic li:hover {
   transform: scale(1.05);
@@ -792,5 +802,10 @@ body {
 
 .who-wrapper {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+}
+@media (min-width: 767.98px) {
+  .who-wrapper {
+    height: 100vh;
+  }
 }
