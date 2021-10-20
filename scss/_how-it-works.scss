@@ -1,24 +1,23 @@
 .how-it-works {
   background-color: $color__main_dark-grey;
-  height: 337px;
-
-  // @include tablet {
-  //   height: 100vh;
-  // }
-  // @include mobile {
-  //   height: 100vh;
-  // }
-
-  &__row {
-    position: relative;
-  }
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &__pic {
-    height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 44px 12px 68px;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    @media (min-width: $md3+px) {
+      flex-direction: row;
+      height: 100%;
+    }
+
+    // justify-content: space-between;
+    // align-items: center;
+    // padding: 0px 44px 12px 68px;
 
     // @include tablet {
     //   font-size: 2em;
@@ -30,6 +29,15 @@
     //   flex-direction: column;
     //   justify-content: space-around;
     // }
+  }
+
+  &__pic li{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   &__pic li:hover {
@@ -48,24 +56,12 @@
   letter-spacing: normal;
   text-align: center;
   color: $color__main_milk;
-  margin: 39px 21px 0px 0px;
-
-  // @include laptop {
-  //   font-size: 2em;
-  // }
-  // @include tablet {
-  //   font-size: 1.5em;
-  // }
-  // @include mobile {
-  //   font-size: 1em;
-  //   margin: 16px -9px 0px 0px;
-  // }
+  margin: 39px 0px 0px 0px;
 }
 
 .bg-search_big {
   width: 58px;
   height: 57px;
-  margin: -9px 0px 0px 78px;
   background: url("../assets/icon/css_sprites.png") -10px -91px;
   cursor: pointer;
 }
@@ -73,7 +69,6 @@
 .bg-select {
   width: 60px;
   height: 61px;
-  margin: -5px 0px 0px 71px;
   background: url("../assets/icon/css_sprites.png") -10px -10px;
   cursor: pointer;
 }
@@ -81,7 +76,6 @@
 .bg-like {
   width: 62px;
   height: 59px;
-  margin: -3px 0px 0px 75px;
   background: url("../assets/icon/css_sprites.png") -90px -10px;
   cursor: pointer;
 }

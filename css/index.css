@@ -141,7 +141,7 @@ table {
   width: 100%;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -282,12 +282,12 @@ table {
 @media (min-width: 767.98px) {
   .header__navy {
     display: flex;
-    height: 60px;
+    height: 62px;
   }
 }
 @media (max-height: 820px) {
   .header__navy {
-    height: 60px;
+    height: 62px;
   }
 }
 .header__menu {
@@ -356,6 +356,7 @@ table {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   padding: 0 10px;
 }
 
@@ -437,7 +438,7 @@ input:focus:-ms-input-placeholder {
   background-image: url(../assets/image/why-bg.jpg);
   background-position: bottom;
   background-size: cover;
-  height: 685px;
+  height: 75%;
 }
 .who-choose-us__row {
   display: flex;
@@ -515,17 +516,30 @@ input:focus:-ms-input-placeholder {
 
 .how-it-works {
   background-color: #333333;
-  height: 337px;
-}
-.how-it-works__row {
-  position: relative;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .how-it-works__pic {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+}
+@media (min-width: 767.98px) {
+  .how-it-works__pic {
+    flex-direction: row;
+    height: 100%;
+  }
+}
+.how-it-works__pic li {
+  width: 33%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 0px 44px 12px 68px;
 }
 .how-it-works__pic li:hover {
   transform: scale(1.05);
@@ -540,13 +554,12 @@ input:focus:-ms-input-placeholder {
   letter-spacing: normal;
   text-align: center;
   color: #e8e8e8;
-  margin: 39px 21px 0px 0px;
+  margin: 39px 0px 0px 0px;
 }
 
 .bg-search_big {
   width: 58px;
   height: 57px;
-  margin: -9px 0px 0px 78px;
   background: url("../assets/icon/css_sprites.png") -10px -91px;
   cursor: pointer;
 }
@@ -554,7 +567,6 @@ input:focus:-ms-input-placeholder {
 .bg-select {
   width: 60px;
   height: 61px;
-  margin: -5px 0px 0px 71px;
   background: url("../assets/icon/css_sprites.png") -10px -10px;
   cursor: pointer;
 }
@@ -562,7 +574,6 @@ input:focus:-ms-input-placeholder {
 .bg-like {
   width: 62px;
   height: 59px;
-  margin: -3px 0px 0px 75px;
   background: url("../assets/icon/css_sprites.png") -90px -10px;
   cursor: pointer;
 }
@@ -777,5 +788,9 @@ body {
 
 .container {
   max-width: 1110px;
-  height: 100%;
+}
+
+.who-wrapper {
+  width: 100%;
+  height: 100vh;
 }

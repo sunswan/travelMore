@@ -7,7 +7,7 @@
   width: 100%;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 
@@ -144,10 +144,10 @@
     @media (min-width: $md3+px) {
       display: flex;
 
-      height: 60px;
+      height: 62px;
     }
     @media (max-height: 820px) {
-      height: 60px;
+      height: 62px;
     }
   }
 
@@ -220,6 +220,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   padding: 0 10px;
 }
 
