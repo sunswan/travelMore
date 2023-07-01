@@ -490,7 +490,7 @@ input:focus:-ms-input-placeholder {
   margin: 40px 0;
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 767.98px) {
   .who-choose-us__title {
     text-align: left;
     padding: 207px 0px 65px 0px;
