@@ -490,28 +490,6 @@ input:focus:-ms-input-placeholder {
   margin: 40px 0;
 }
 
-@media (min-width: 767.98px) {
-  .who-choose-us__title {
-    text-align: left;
-    padding: 207px 0px 65px 0px;
-  }
-  /* .who-choose-us__text {
-    padding: 0;
-    margin: 0px 62px 0px 0px;
-  } */
-  .who-choose-us__item {
-    text-align: left;
-    padding-left: 10%;
-  }
-  .who-choose-us__text {
-    font-size: 18px;
-    text-align: left;
-    margin: 0;
-    padding: 0 70px;
-    max-width: 85%;
-}
-}
-
 .who-choose-us__btn:hover {
   transform: scale(0.95);
   background-color: #ffffff;
@@ -847,4 +825,21 @@ body {
     position: relative;
     background-color: #333333;
   }
+
+  .who-choose-us__title {
+    text-align: left;
+    padding: 207px 0px 65px 0px;
+  }
+
+  .who-choose-us__item {
+    text-align: left;
+    padding-left: 10%;
+  }
+  .who-choose-us__text {
+    font-size: 18px;
+    text-align: left;
+    margin: 0px 62px 0px 0px;
+    padding: 0px 0px;
+    max-width: 85%;
+}
 }
