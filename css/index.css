@@ -495,14 +495,21 @@ input:focus:-ms-input-placeholder {
     text-align: left;
     padding: 207px 0px 65px 0px;
   }
-  .who-choose-us__text {
+  /* .who-choose-us__text {
     padding: 0;
     margin: 0px 62px 0px 0px;
-  }
+  } */
   .who-choose-us__item {
     text-align: left;
     padding-left: 10%;
   }
+  .who-choose-us__text {
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    padding: 0 70px;
+    max-width: 85%;
+}
 }
 
 .who-choose-us__btn:hover {
